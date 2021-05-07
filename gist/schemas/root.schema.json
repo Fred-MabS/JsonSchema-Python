@@ -1,0 +1,15 @@
+{
+    "$id": "https://www.example.com/schemas/root.schema.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "foo": {
+            "type": "object",
+            "properties": {
+                "bar": { 
+                    "$ref": "bar.schema.json" 
+                }
+            }
+        }
+    }
+}

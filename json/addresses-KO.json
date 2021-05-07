@@ -7,7 +7,7 @@
   "work": {
     "street_address": "1st Street SE",
     "city": true,
-    "state": "DC"
+    "state": 12
   }
 }
   
